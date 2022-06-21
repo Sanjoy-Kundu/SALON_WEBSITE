@@ -275,3 +275,156 @@ img {
 	transform: scale(.9);
 	background-color: #c1bfbf;
 }
+
+
+/* salon- des */
+.salon-description {
+	background-color: #F6F6F6;
+}
+
+.salon-description-down {
+	padding-top: 100px;
+}
+
+.salon-title {
+	display: flex;
+	width: 91%;
+}
+
+.salon-title p {
+	height: 2px;
+	width: 80px;
+	background-color: #EE9F9F;
+	margin-top: 24px;
+	margin-right: 0px;
+	margin-left: 6px;
+}
+
+.salon-text-black {
+	color: #151515;
+	font-size: 19px;
+	font-weight: 400;
+}
+
+.salon-text-gray {
+	color: gray;
+	font-size: 17px;
+}
+
+.center-text {
+	color: #151515;
+	font-style: italic;
+	margin: 93px auto;
+}
+
+.img {
+	height: 100%;
+	width: 100%;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes example {
+
+	0% {
+		transform: scale(1);
+	}
+
+	25% {
+		transform: scale(.5);
+		box-shadow: 4px 10px 8px gray;
+	}
+
+	50% {
+		transform: scale(.3);
+		box-shadow: 4px 10px 8px black;
+	}
+
+	75% {
+		transform: scale(.5);
+		box-shadow: 14px 5px 8px gray;
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+
+/* ===== testimonial ==========  */
+
+.testimonial {
+	padding-bottom: 30px;
+}
+
+.testimonial-bottom {
+	padding-top: 67px;
+}
+
+.testimonial-header {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.testimonial-header h1 {
+	text-align: center;
+	color: #151515;
+}
+
+.testimonial-title {
+	display: flex;
+	justify-content: center;
+
+}
+
+.testimonial-title p {
+	height: 2px;
+	width: 58px;
+	background-color: rgb(238, 159, 159);
+	margin-top: 22px;
+	margin-right: 2px;
+	margin-left: 69px;
+}
+
+
+/* ============ SLIDER =========*/
+.slider {
+	width: 100%;
+	height: 200px;
+	box-shadow: 5px 1px 10px grey;
+	padding: 10px;
+}
+
+#slider--text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.fade-in {
+	animation: fade 4s infinite;
+}
+
+@keyframes fade {
+	0% {
+		opacity: 0;
+		transform: rotate3d(2, 2, 0, 48deg);
+	}
+
+	20% {
+		opacity: 1;
+		transform: rotate3d(0, 0, 0, 24deg);
+	}
+
+	80% {
+		opacity: 1;
+		transform: rotate3d(0, 0, 0, 24deg);
+	}
+
+	100% {
+		opacity: 0;
+		transform: rotate3d(-2, -2, 0, 48deg);
+	}
+}
