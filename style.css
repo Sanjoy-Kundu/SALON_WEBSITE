@@ -228,3 +228,50 @@ img {
 	background-color: #EE9F9F;
 	transition: 1s all;
 }
+
+/* ===== our services====== */
+.our-service {
+	background-color: #FFFFFFFF;
+}
+
+.service-title {
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 94px;
+}
+
+.service-title h1 {
+	text-align: center;
+	color: #151515;
+}
+
+.service-title h2 {
+	width: 106px;
+	height: 2px;
+	background-color: #EE9F9F;
+	margin: 15px auto;
+}
+
+.service-title p {
+	color: #807c7c;
+	/* text-align: justify; */
+	font-size: 18px;
+}
+
+/*======== cart img ======*/
+.card-body {
+	text-align: center;
+}
+
+.card-body img {
+	height: 100px;
+	width: 100px;
+	border-radius: 60px;
+	background-color: white;
+}
+
+.card:hover {
+	transition: .5s all;
+	transform: scale(.9);
+	background-color: #c1bfbf;
+}
