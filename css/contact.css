@@ -1,0 +1,116 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+nav {
+	overflow: hidden;
+	background-color: #f1f1f1;
+	padding: 20px 10px;
+	height: 89px;
+	position: static;
+}
+
+nav img {
+	height: 62px;
+	width: 173px;
+}
+
+nav ul {
+	float: right;
+}
+
+nav ul li {
+	float: left;
+	list-style: none;
+}
+
+nav ul li a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 25px;
+	border-radius: 4px;
+}
+
+@media screen and (max-width: 500px) {
+	nav a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+
+	nav ul {
+		float: none;
+	}
+}
+
+
+.contact-address {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+.address-text {
+	display: flex;
+	border-bottom: 2px solid gray;
+}
+
+.address-text p {
+	width: 100%;
+	margin-left: 14px;
+	font-size: 16px;
+	color: gray;
+}
+
+.address-info img {
+	width: 30px;
+	height: 30px;
+}
+
+.hour {
+	border: none;
+}
+
+.hour ol li {
+	list-style: none;
+	color: gray;
+}
+
+
+form {
+	width: 600px;
+	height: auto;
+	padding: 11px;
+}
+
+form input {
+	height: 44px;
+	margin-bottom: 20px;
+	width: 250px;
+	border-radius: 14px;
+	outline: none;
+	border: 1px solid rgb(210, 67, 67);
+}
+
+.text-area {
+	width: 100%;
+	border: 1px solid rgb(210, 67, 67);
+}
+
+.submit {
+	background-color: rgb(210, 67, 67);
+	color: white;
+}
+
+.submit:hover {
+	transition: .3s all;
+	background-color: rgb(189, 39, 39);
+}

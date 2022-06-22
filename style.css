@@ -4,12 +4,17 @@
 	box-sizing: border-box;
 }
 
+header {
+	height: 89px;
+	width: 100%;
+	background-color: #f1f1f1;
+	position: static;
+}
+
 nav {
 	overflow: hidden;
-	background-color: #f1f1f1;
 	padding: 20px 10px;
-	height: 89px;
-	position: static;
+
 }
 
 nav img {
